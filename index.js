@@ -3,7 +3,7 @@ const express = require('express')
 const path = require('path')
 const PORT = process.env.PORT || 5000
 const MongoClient = require('mongodb').MongoClient;
-const assert = require('assert');
+//const assert = require('assert');
 
 const url = 'mongodb+srv://coryyang9:blabla123@cluster0.c1nvy.mongodb.net/myFirstDatabase?retryWrites=true';
 
